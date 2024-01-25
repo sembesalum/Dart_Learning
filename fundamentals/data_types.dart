@@ -33,4 +33,14 @@ main() {
 
   weakVariable1 = "Dart Programming";
   print("WeakVariable 2: $weakVariable1");
+
+  // string to int
+  var newAmount = double.parse("1");
+  assert(newAmount == 1);
+
+  // string to double
+  var newAmount2 = int.parse('1.1');
+  assert(newAmount2 == 1.1);
+
+  print(newAmount + newAmount2);
 }
